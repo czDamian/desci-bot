@@ -100,6 +100,11 @@ Example payload:
     🔹 More detailed BIO/ACC meme explanations
     🔹 Advanced RAG-based responses
 
+### Meet The Team
+
+🔹 Damian Olebuezie (AI Engineer and FullStack Developer)
+🔹 Ani Stephanie (UI/UX Designer)
+
 ### Contributing
 
 Contributions are welcome! Please submit a PR or open an issue for discussions.
