@@ -10,7 +10,7 @@ The **BIO/ACC Telegram AI Bot** is an AI-powered assistant designed to engage wi
 - ✅ **Integrates with Telegram** to provide real-time community engagement.
 - ✅ **Uses RAG (Retrieval-Augmented Generation)** to pull insights from DeSci project documents.
 - ✅ **Explains BIO/ACC movement & memes** with detailed responses.
-- ✅ **Generates community content** for BIO/ACC & DeSci.
+- ✅ **Generates useful community content** for BIO/ACC & DeSci.
 - ✅ **Formats messages using Telegram-supported HTML** (no `<ul>` or `<li>` tags).
 - ✅ **Strict topic adherence** (only responds to BIO/ACC & DeSci-related queries).
 
