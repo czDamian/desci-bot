@@ -165,3 +165,10 @@ export async function POST(request) {
     return NextResponse.json({ success: false, error: error.message });
   }
 }
+
+export async function GET() {
+  return NextResponse.json(
+    { success: true, message: "Welcome to DeSci bot" },
+    { status: 200 }
+  );
+}
