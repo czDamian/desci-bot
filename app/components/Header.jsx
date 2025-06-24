@@ -139,6 +139,15 @@ const Header = () => {
                 About
               </Link>
             </li>
+            <li>
+              <Link
+                href="/rewards"
+                className="block px-4 py-3 rounded-xl hover:bg-white/10 transition-all duration-300 hover:text-green-300"
+                onClick={() => setMenuOpen(false)}
+              >
+                Rewards
+              </Link>
+            </li>
 
             {/* Mobile Social Links */}
             <li className="pt-4 border-t border-white/10">

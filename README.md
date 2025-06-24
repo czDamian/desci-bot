@@ -102,13 +102,6 @@ NEXT_PUBLIC_API_BASE_URL = "http://localhost:3000/"
 ### 2️⃣ Installation & Deployment
 
 ```bash
-npm install
-
-```
-
-# Clone the repository
-
-```bash
 
 git clone https://github.com/czDamian/desci-bot
 cd desci-bot
@@ -120,7 +113,7 @@ npm install
 npm run dev
 
 # View on your local machine
-#https://localhost:3000
+https://localhost:3000
 ```
 
 ### Api Documentation
