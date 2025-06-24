@@ -119,6 +119,14 @@ export async function POST(request) {
         { status: 400 }
       );
     }
+    // save the message request to a collection named "requests". It is a non vector based collection
+    const requestsCollection = db.collection("requests");
+    const doc = {
+      message,
+      createdAt: new Date().toISOString(),
+    };
+    const result = await requestsCollection.insertOne(doc);
+    console.log("Message request saved with id:", result.insertedId);
 
     // Generate embedding for user message
     const vector = await aiService.generateEmbedding(embeddingModel, message);
