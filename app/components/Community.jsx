@@ -107,7 +107,7 @@ const JoinCommunity = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.6 }}
                 viewport={{ once: true }}
-                className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+                className="flex flex-col gap-4 justify-center items-center"
               >
                 <a
                   href="https://t.me/desci_ai_bot"
@@ -115,7 +115,7 @@ const JoinCommunity = () => {
                 >
                   <div className="flex items-center justify-center gap-3">
                     <FaTelegram className="text-xl group-hover:rotate-12 transition-transform duration-300" />
-                    <span className="text-lg">Start Using the Bot Today</span>
+                    <span className="text-lg">Explore DeSci Bot</span>
                     <FaArrowRight className="text-lg group-hover:translate-x-1 transition-transform duration-300" />
                   </div>
 

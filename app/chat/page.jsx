@@ -1,6 +1,4 @@
-import { MdOutlineWarningAmber } from "react-icons/md";
 import ChatCard from "./ChatCard";
-import Link from "next/link";
 
 export const metadata = {
   title: "Chat || DeSci Bot",

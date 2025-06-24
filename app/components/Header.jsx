@@ -6,6 +6,7 @@ import { FaGithub, FaTelegram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiMenu, HiX } from "react-icons/hi";
 import { IoRocket } from "react-icons/io5";
+import Logo from "./Logo";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,9 +16,9 @@ const Header = () => {
       <nav className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="p-2 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl shadow-lg group-hover:shadow-green-500/25 transition-all duration-300 group-hover:scale-105">
-            <IoRocket className="w-6 h-6 text-white" />
-          </div>
+          {/* <div className="p-2 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl shadow-lg group-hover:shadow-green-500/25 transition-all duration-300 group-hover:scale-105">
+          </div> */}
+          <Logo className="w-6 h-6 text-white" size={40} />
           <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
             DeSci Bot
           </span>
@@ -45,10 +46,10 @@ const Header = () => {
           </li>
           <li>
             <Link
-              href="/#about"
+              href="/#features"
               className="relative px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300 hover:text-green-300 group"
             >
-              <span className="relative z-10">About</span>
+              <span className="relative z-10">Features</span>
               <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 to-emerald-500/0 group-hover:from-green-500/20 group-hover:to-emerald-500/20 rounded-lg transition-all duration-300"></div>
             </Link>
           </li>

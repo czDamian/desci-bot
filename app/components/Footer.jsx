@@ -4,6 +4,7 @@ import { FaTelegram, FaGithub } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { FaXTwitter } from "react-icons/fa6";
+import Logo from "./Logo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -28,17 +29,9 @@ const Footer = () => {
               viewport={{ once: true }}
               className="lg:col-span-2"
             >
-              <div className="flex items-center gap-3 mb-6">
-                <div className="p-2 bg-gradient-to-br from-emerald-600 to-emerald-500 rounded-xl">
-                  <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                    <span className="text-emerald-600 font-bold text-lg">
-                      B
-                    </span>
-                  </div>
-                </div>
-                <h2 className="text-2xl font-bold text-white">
-                  BIO/ACC AI Bot
-                </h2>
+              <div className="flex items-center gap-3 mb-4">
+                <Logo size={50} />
+                <h2 className="text-2xl font-bold text-white">DeSci Bot</h2>
               </div>
               <p className="text-slate-300 text-lg leading-relaxed mb-6 max-w-md">
                 Accelerating DeSci knowledge and community engagement through
@@ -163,12 +156,6 @@ const Footer = () => {
                 className="hover:text-emerald-400 transition-colors duration-300"
               >
                 Terms of Service
-              </a>
-              <a
-                href="#"
-                className="hover:text-emerald-400 transition-colors duration-300"
-              >
-                Open Source
               </a>
             </div>
           </div>

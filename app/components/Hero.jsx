@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { FaTelegram, FaRocket, FaAtom, FaDna } from "react-icons/fa";
 import { HiChevronDown, HiSparkles } from "react-icons/hi";
 import { IoRocket } from "react-icons/io5";
+import Logo from "./Logo";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -76,7 +77,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      <div className="container mx-auto px-6 py-20 relative z-10">
+      <div className="container mx-auto px-6 py-14 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 30 }}
@@ -94,7 +95,7 @@ const Hero = () => {
               {/* Placeholder for hero image - replace with your actual image */}
               <div className="absolute inset-0 bg-gradient-to-br from-green-500 via-emerald-500 to-teal-500 rounded-3xl shadow-2xl shadow-green-500/25 animate-pulse">
                 <div className="absolute inset-4 bg-slate-900/80 rounded-2xl flex items-center justify-center backdrop-blur-sm">
-                  <IoRocket className="w-16 h-16 text-white" />
+                  <Logo className="w-16 h-16 text-white" size={120} />
                 </div>
               </div>
 
@@ -108,7 +109,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight leading-tight"
+            className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight leading-tight"
           >
             <span className="bg-gradient-to-r from-emerald-400 via-teal-300 to-green-400 bg-clip-text text-transparent">
               BIO/ACC
@@ -124,7 +125,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="mt-8 text-xl md:text-2xl lg:text-3xl max-w-4xl text-gray-300 leading-relaxed"
+            className="mt-8 text-xl md:text-2xl max-w-4xl text-gray-300 leading-relaxed"
           >
             Accelerate your{" "}
             <span className="text-emerald-400 font-semibold">
@@ -134,7 +135,10 @@ const Hero = () => {
           </motion.p>
 
           {/* Feature Pills */}
-          <motion.div
+
+          {/* remove the AI Powered features for now */}
+
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
@@ -150,14 +154,14 @@ const Hero = () => {
                 </div>
               )
             )}
-          </motion.div>
+          </motion.div> */}
 
           {/* CTA Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="mt-12 flex flex-col sm:flex-row gap-6"
+            className="mt-10 flex flex-col sm:flex-row gap-6"
           >
             <a
               href="https://t.me/desci_ai_bot"
