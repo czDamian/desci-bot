@@ -47,8 +47,27 @@ const createCollection = async () => {
 
 const desciLinks = [
   "https://www.bioacc.meme/",
+  "https://www.descifoundation.org/",
+  "https://www.descifoundation.org/blog",
+  "https://desci.world/",
+  "https://www.desci.com/",
+  "https://www.desci.com/blog/the-rise-of-decentralized-science",
+  "https://www.desci.com/blog/triple-victory-for-desci-labs-in-2024",
+  "https://www.desci.com/blog/journal-of-world-philosophies-partners-with-desci-publish",
+  "https://www.desci.com/blog/autonomous-research-communities-arcs",
+  "https://www.desci.com/blog/10-commandments-to-improve-scientific-publishing",
   "https://github.com/DeSciWorldDAO/awesome-desci",
+  "https://www.researchhub.com/",
+  "https://www.vitadao.com/",
+  "https://www.molecule.to/",
+  "https://www.hairdao.xyz/",
+  "https://www.opsci.io/",
+  "https://x.com/DeSciWorld",
+  "https://x.com/buzorDamian",
+  "https://discord.gg/DeSciWorld",
+  "https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2019.00005/full",
   "https://core.telegram.org/api/entities",
+
 ];
 
 const scrapePage = async (url) => {

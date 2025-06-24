@@ -1,8 +1,8 @@
-# BIO/ACC Telegram AI Bot
+# DeSci AI
 
 ## Overview
 
-The **BIO/ACC AI Bot** is an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the **Biological Accelerationism (BIO/ACC)** and **Decentralized Science (DeSci)** ecosystems. Built with cutting-edge technology, it serves as an intelligent bridge between complex scientific concepts and accessible community interaction. It integrates **Retrieval-Augmented Generation (RAG)** to fetch relevant information, responds to queries in **Telegram-supported HTML formatting**, and supports interactions in both **direct messages (DMs) and group mentions**.
+The **DeSci AI** is an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the **Biological Accelerationism (BIO/ACC)** and **Decentralized Science (DeSci)** ecosystems. Built with cutting-edge technology, it serves as an intelligent bridge between complex scientific concepts and accessible community interaction. It integrates **Retrieval-Augmented Generation (RAG)** to fetch relevant information, responds to queries in **Telegram-supported HTML formatting**, and supports interactions in both **direct messages (DMs) and group mentions**.
 
 ## 🚀 Key Features
 

@@ -19,7 +19,7 @@ const Header = () => {
           </div> */}
           <Logo className="w-6 h-6 text-white" size={40} />
           <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">
-            DeSci Bot
+            DeSci AI
           </span>
         </Link>
 
