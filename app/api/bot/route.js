@@ -105,12 +105,10 @@ export async function POST(request) {
     let responseText = "";
     if (cleanedText.startsWith("/start")) {
       responseText =
-        "Welcome to DeSci Bot! I can help you with various tasks. Send /help to see available commands.";
+        "Welcome to DeSci Bot! I am an AI-powered assistant here to help you with any questions about BIO/ACC and Decentralized Science (DeSci). Type /help to see available commands or ask me anything to get started.";
     } else if (cleanedText.startsWith("/help")) {
       responseText =
-        "Available commands:\n/start - Start the bot\n/help - Show this help message\n/time - Get current time";
-    } else if (cleanedText.startsWith("/time")) {
-      responseText = `Current time: ${new Date().toLocaleString()}`;
+        "Welcome to DeSci Bot! I am an AI-powered assistant here to help you with any questions about BIO/ACC and Decentralized Science (DeSci). Type /help to see available commands or ask me anything to get started.";
     } else {
       // Query the RAG endpoint
       try {
