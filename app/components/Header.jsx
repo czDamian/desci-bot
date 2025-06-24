@@ -5,7 +5,6 @@ import { useState } from "react";
 import { FaGithub, FaTelegram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiMenu, HiX } from "react-icons/hi";
-import { IoRocket } from "react-icons/io5";
 import Logo from "./Logo";
 
 const Header = () => {
@@ -50,6 +49,15 @@ const Header = () => {
               className="relative px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300 hover:text-green-300 group"
             >
               <span className="relative z-10">Features</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 to-emerald-500/0 group-hover:from-green-500/20 group-hover:to-emerald-500/20 rounded-lg transition-all duration-300"></div>
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/rewards"
+              className="relative px-3 py-2 rounded-lg hover:bg-white/10 transition-all duration-300 hover:text-green-300 group"
+            >
+              <span className="relative z-10">Rewards</span>
               <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 to-emerald-500/0 group-hover:from-green-500/20 group-hover:to-emerald-500/20 rounded-lg transition-all duration-300"></div>
             </Link>
           </li>
