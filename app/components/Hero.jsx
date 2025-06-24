@@ -31,7 +31,7 @@ const Hero = () => {
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-teal-300">
               BIO/ACC
             </span>
-            <span className="text-white"> Telegram AI Bot</span>
+            <span className="text-white"> Telegram AI Powered Bot</span>
           </h1>
 
           <p className="mt-6 text-xl md:text-2xl max-w-3xl text-gray-300">
