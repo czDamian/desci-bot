@@ -104,11 +104,50 @@ export async function POST(request) {
     // Command Handling
     let responseText = "";
     if (cleanedText.startsWith("/start")) {
-      responseText =
-        "Welcome to DeSci Bot! I am an AI-powered assistant here to help you with any questions about BIO/ACC and Decentralized Science (DeSci). Type /help to see available commands or ask me anything to get started.";
+      responseText = ` 
+      🧬 <b>Welcome to the BIO/ACC AI Assistant!</b> 🚀
+
+      I'm your intelligent guide to the world of <b>Biological Accelerationism</b> and <b>Decentralized Science</b>. Whether you're a researcher, innovator, or curious explorer, I'm here to accelerate your journey into the future of science.
+
+      <b>What I can help you with:</b>
+      🔬 <b>BIO/ACC Concepts</b> - Understanding biological acceleration principles
+      🌐 <b>DeSci Projects</b> - Exploring decentralized science initiatives  
+      📚 <b>Research Insights</b> - Summaries of cutting-edge papers and studies
+      🧪 <b>Synthetic Biology</b> - Latest developments in bioengineering
+      ⚡ <b>Longevity Research</b> - Advances in life extension and regenerative medicine
+      🤝 <b>Community Connections</b> - Finding collaborators and projects
+
+      <b>Quick Start:</b>
+      • Type <code>/help</code> for available commands
+      • Ask me anything like <i>"What is BIO/ACC?"</i> or <i>"Tell me about recent DeSci projects"</i>
+      • Use <code>/examples</code> to see sample questions
+
+      Ready to accelerate science together? 🌱✨
+
+      <i>Powered by RAG technology with access to 10,000+ research papers</i>
+`;
     } else if (cleanedText.startsWith("/help")) {
-      responseText =
-        "Welcome to DeSci Bot! I am an AI-powered assistant here to help you with any questions about BIO/ACC and Decentralized Science (DeSci). Type /help to see available commands or ask me anything to get started.";
+      responseText = ` 
+      🧬 <b>Welcome to the BIO/ACC AI Assistant!</b> 🚀
+
+      I'm your intelligent guide to the world of <b>Biological Accelerationism</b> and <b>Decentralized Science</b>. Whether you're a researcher, innovator, or curious explorer, I'm here to accelerate your journey into the future of science.
+
+      <b>What I can help you with:</b>
+      🔬 <b>BIO/ACC Concepts</b> - Understanding biological acceleration principles
+      🌐 <b>DeSci Projects</b> - Exploring decentralized science initiatives  
+      📚 <b>Research Insights</b> - Summaries of cutting-edge papers and studies
+      🧪 <b>Synthetic Biology</b> - Latest developments in bioengineering
+      ⚡ <b>Longevity Research</b> - Advances in life extension and regenerative medicine
+      🤝 <b>Community Connections</b> - Finding collaborators and projects
+
+      <b>Quick Start:</b>
+      • Ask me anything like <i>"What is BIO/ACC?"</i> or <i>"Tell me about recent DeSci projects"</i>
+      
+
+      Ready to accelerate science together? 🌱✨
+
+      <i>Powered by RAG technology with access to 10,000+ research papers</i>
+`;
     } else {
       // Query the RAG endpoint
       try {
