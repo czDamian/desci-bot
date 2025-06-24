@@ -119,7 +119,7 @@ export async function POST(request) {
         { status: 400 }
       );
     }
-    // save the message request to a collection named "requests". It is a non vector based collection
+    // save the message request to a collection for documentation
     const requestsCollection = db.collection("requests");
     const doc = {
       message,
