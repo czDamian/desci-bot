@@ -10,6 +10,23 @@ export const metadata = {
   title: "DeSci AI",
   description:
     "an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
+  authors: [{ name: 'Damian', url: 'https://x.com/buzorDamian' }],
+  robots: 'index, follow',
+  openGraph: {
+    title: "DeSci AI",
+    description:
+      "an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
+    url: "https://desciai.app",
+    siteName: "DeSci AI",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "DeSci AI",
+    description:
+      "an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
+  },
 };
 
 export default function RootLayout({ children }) {
