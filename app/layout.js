@@ -15,7 +15,7 @@ export const metadata = {
   openGraph: {
     title: "DeSci AI",
     description:
-      "an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
+      "An AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
     url: "https://desciai.app",
     siteName: "DeSci AI",
     locale: "en_US",
@@ -25,7 +25,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "DeSci AI",
     description:
-      "an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
+      "An AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
   },
 };
 

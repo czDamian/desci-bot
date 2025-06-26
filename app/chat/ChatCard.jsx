@@ -21,9 +21,9 @@ export default function ChatPage() {
   const [error, setError] = useState("")
   const chatEndRef = useRef(null)
 
-  useEffect(() => {
-    chatEndRef.current?.scrollIntoView({ behavior: "smooth" })
-  }, [messages])
+  // useEffect(() => {
+  //   chatEndRef.current?.scrollIntoView({ behavior: "smooth" })
+  // }, [messages])
 
   const handleSend = async (e) => {
     e.preventDefault()
@@ -103,7 +103,7 @@ export default function ChatPage() {
                 Chat with
               </span>
               <br />
-              <span className="text-white">DeSci Bot</span>
+              <span className="text-white">DeSci AI</span>
             </h1>
 
             <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
@@ -129,7 +129,10 @@ export default function ChatPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">BIO/ACC AI Assistant</h3>
-                  <p className="text-sm text-gray-400">Online • Ready to help</p>
+                  <p className="text-sm text-gray-400">Online 
+                    {/* • Ready to help */}
+
+                  </p>
                 </div>
                 <div className="ml-auto flex items-center gap-2 text-emerald-400">
                   <HiLightningBolt className="w-4 h-4" />
