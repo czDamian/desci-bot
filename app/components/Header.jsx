@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { FaGithub, FaTelegram } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiMenu, HiX } from "react-icons/hi";
 import Logo from "./Logo";
@@ -65,15 +65,6 @@ const Header = () => {
 
         {/* Social Links */}
         <div className="hidden md:flex items-center gap-4">
-          <a
-            href="https://github.com/czDamian"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-110 hover:text-green-300 group"
-            aria-label="GitHub"
-          >
-            <FaGithub className="w-5 h-5" />
-          </a>
           <a
             href="https://x.com/buzorDamian"
             target="_blank"
@@ -155,17 +146,7 @@ const Header = () => {
                 <span className="text-sm text-gray-300">Follow us:</span>
                 <div className="flex gap-3">
                   <a
-                    href="https://github.com/czDamian"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:text-green-300"
-                    onClick={() => setMenuOpen(false)}
-                    aria-label="GitHub"
-                  >
-                    <FaGithub className="w-5 h-5" />
-                  </a>
-                  <a
-                    href="https://x.com/buzorDamian"
+                    href="https://x.com/Desci_ai_bot"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:text-green-300"
@@ -175,7 +156,7 @@ const Header = () => {
                     <FaXTwitter className="w-5 h-5" />
                   </a>
                   <a
-                    href="https://t.me/buzorDamian"
+                    href="https://t.me/DesciAI_New"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:text-green-300"

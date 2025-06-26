@@ -1,6 +1,6 @@
 "use client";
 
-import { FaTelegram, FaGithub } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { FaXTwitter } from "react-icons/fa6";
@@ -91,7 +91,7 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white mb-6">Connect</h3>
               <div className="space-y-4">
                 <a
-                  href="https://t.me/desci_ai_bot"
+                  href="https://t.me/DesciAI_New"
                   className="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors duration-300 group"
                 >
                   <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
@@ -100,22 +100,13 @@ const Footer = () => {
                   <span>Telegram Bot</span>
                 </a>
                 <a
-                  href="https://x.com/buzorDamian"
+                  href="https://x.com/Desci_ai_bot"
                   className="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors duration-300 group"
                 >
                   <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
                     <FaXTwitter className="w-5 h-5" />
                   </div>
                   <span>Twitter (X)</span>
-                </a>
-                <a
-                  href="https://github.com/czDamian"
-                  className="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors duration-300 group"
-                >
-                  <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
-                    <FaGithub className="w-5 h-5" />
-                  </div>
-                  <span>GitHub</span>
                 </a>
                 <a
                   href="mailto:dev.czdamian@gmail.com"
