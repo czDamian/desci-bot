@@ -3,7 +3,7 @@ import ChatCard from "./ChatCard";
 export const metadata = {
   title: "Chat || DeSci Bot",
   description:
-    "an AI-powered assistant designed to engage with the BIO/ACC and DeSci (Decentralized Science) communities",
+    "an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
 };
 
 const page = () => {

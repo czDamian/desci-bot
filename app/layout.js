@@ -7,9 +7,9 @@ const rubik = Rubik({
 });
 
 export const metadata = {
-  title: "DeSci Bot",
+  title: "DeSci AI",
   description:
-    "an AI-powered assistant designed to engage with the BIO/ACC and DeSci (Decentralized Science) communities",
+    "an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
 };
 
 export default function RootLayout({ children }) {
