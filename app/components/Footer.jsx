@@ -109,7 +109,7 @@ const Footer = () => {
                   <span>Twitter</span>
                 </a>
                 <a
-                  href="mailto:dev.czdamian@gmail.com"
+                  href="mailto:desciaibot@gmail.com"
                   className="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors duration-300 group"
                 >
                   <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
