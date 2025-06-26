@@ -8,32 +8,32 @@ The **DeSci AI** is an AI-powered assistant designed to accelerate knowledge sha
 
 ### 🤖 **AI-Powered Intelligence**
 
-- ✅ **Advanced RAG System** - Retrieval-Augmented Generation with 10,000+ research papers
-- ✅ **Multi-Platform Support** - Telegram bot + modern web interface
-- ✅ **Real-time Responses** - Sub-second query processing with GPU acceleration
-- ✅ **Context-Aware Conversations** - Maintains conversation history and context
-- ✅ **Scientific Accuracy** - Validates information against curated knowledge base
+-  **Advanced RAG System** - Retrieval-Augmented Generation with 10,000+ research papers
+-  **Multi-Platform Support** - Telegram bot + modern web interface
+-  **Real-time Responses** - Sub-second query processing with GPU acceleration
+-  **Context-Aware Conversations** - Maintains conversation history and context
+-  **Scientific Accuracy** - Validates information against curated knowledge base
 
 ### 🌐 **Platform Integration**
 
-- ✅ **Telegram Bot** - Group mentions, DMs, and community engagement
-- ✅ **Modern Web Chat** - Sophisticated chat interface with animations
-- ✅ **Responsive Design** - Works seamlessly across all devices
-- ✅ **Professional UI** - Glassmorphism effects and modern design language
-- ✅ **Real-time Updates** - Live message streaming and typing indicators
+-  **Telegram Bot** - Group mentions, DMs, and community engagement
+-  **Modern Web Chat** - Sophisticated chat interface with animations
+-  **Responsive Design** - Works seamlessly across all devices
+-  **Professional UI** - Glassmorphism effects and modern design language
+-  **Real-time Updates** - Live message streaming and typing indicators
 
 
 ### 🎁 **Rewards Program**
 
-- ✅ **Early Access Waitlist** – Users can join a waitlist to get notified about the launch of the DeSci Rewards program.
-- ✅ **Project Submission** – Submit DeSci or BIO/ACC projects for recognition and rewards.
-- ✅ **Token Rewards** – Earn tokens for valuable contributions and community engagement.
-- ✅ **Community Voting** – Participate in voting to help surface impactful projects.
-- ✅ **Impact Tracking** – Monitor your contributions and project impact over time.
-- ✅ **Recognition & Acceleration** – Top contributors and projects receive special recognition and support.
+-  **Early Access Waitlist** – Users can join a waitlist to get notified about the launch of the DeSci Rewards program.
+-  **Project Submission** – Submit DeSci or BIO/ACC projects for recognition and rewards.
+-  **Token Rewards** – Earn tokens for valuable contributions and community engagement.
+-  **Community Voting** – Participate in voting to help surface impactful projects.
+-  **Impact Tracking** – Monitor your contributions and project impact over time.
+-  **Recognition & Acceleration** – Top contributors and projects receive special recognition and support.
 
 ---
-### 🔗 Social Media
+### 🔗 Follow Us On Social Media
 Stay updated on our social media handles
 
 - [X (Twitter)](https://x.com/Desci_ai_bot)
@@ -42,34 +42,33 @@ Stay updated on our social media handles
 
 ### 🔬 **BIO/ACC Specialization**
 
-- ✅ **Movement Expertise** - Deep knowledge of BIO/ACC principles and culture
-- ✅ **DeSci Integration** - Comprehensive coverage of decentralized science projects
-- ✅ **Research Summaries** - Concise explanations of complex scientific papers
-- ✅ **Community Content** - Generates educational content and explanations
-- ✅ **Cultural Awareness** - Understands BIO/ACC memes and terminology
+-  **Movement Expertise** - Deep knowledge of BIO/ACC principles and culture
+-  **DeSci Integration** - Comprehensive coverage of decentralized science projects
+-  **Research Summaries** - Concise explanations of complex scientific papers
+-  **Community Content** - Generates educational content and explanations
+-  **Cultural Awareness** - Understands BIO/ACC memes and terminology
 
 ### 📊 **Technical Excellence**
 
-- ✅ **Vector Search** - Semantic similarity matching for relevant content retrieval
-- ✅ **HTML Formatting** - Telegram-compatible rich text formatting
-- ✅ **Error Handling** - Robust error management and graceful degradation
-- ✅ **Performance Optimization** - Lazy loading and optimized animations
-- ✅ **Security** - Input validation and secure API endpoints
+-  **Vector Search** - Semantic similarity matching for relevant content retrieval
+-  **HTML Formatting** - Telegram-compatible rich text formatting
+-  **Error Handling** - Robust error management and graceful degradation
+-  **Performance Optimization** - Lazy loading and optimized animations
+-  **Security** - Input validation and secure API endpoints
 
 ## 🛠️ Tech Stack
 
 ### **Frontend**
 
-- **Framework:** Next.js 14 (App Router)
-- **Styling:** Tailwind CSS with custom design system
+- **Framework:** Next.js 14 
+- **Styling:** Tailwind CSS
 - **Animations:** Framer Motion for smooth interactions
-- **Icons:** React Icons (Lucide, Font Awesome)
 - **UI Components:** Custom component library with glassmorphism effects
 
 ### **Backend**
 
 - **API Routes:** Next.js serverless functions
-- **AI Model:** Google Gemini AI (`text-embedding-004`)
+- **AI Model:** Google Gemini AI
 - **Vector Database:** AstraDB for embeddings and semantic search
 - **Bot Framework:** Telegram Bot API integration
 - **Data Processing:** Puppeteer for content scraping and processing
@@ -90,7 +89,7 @@ User Query → Telegram/Web Interface → Next.js API → RAG System → Vector 
 
 ## Setup Instructions
 
-### 1️⃣ Prerequisites
+###  Prerequisites
 
 Ensure you have the following installed:
 
@@ -100,7 +99,7 @@ Ensure you have the following installed:
 - **A valid Telegram bot token** (from [BotFather](https://t.me/BotFather))
 - **Gemini AI** API key
 
-### 2️⃣ Environment Variables
+###  Environment Variables
 
 Create a `.env.local` file in the root directory and add:
 
@@ -117,7 +116,8 @@ NEXT_PUBLIC_API_BASE_URL = "http://localhost:3000/"
 
 ```
 
-### 2️⃣ Installation & Deployment
+###  Installation & Deployment
+
 
 ```bash
 
