@@ -97,7 +97,7 @@ const Footer = () => {
                   <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
                     <FaTelegram className="w-5 h-5" />
                   </div>
-                  <span>Telegram Bot</span>
+                  <span>Telegram</span>
                 </a>
                 <a
                   href="https://x.com/Desci_ai_bot"
@@ -106,7 +106,7 @@ const Footer = () => {
                   <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
                     <FaXTwitter className="w-5 h-5" />
                   </div>
-                  <span>Twitter (X)</span>
+                  <span>Twitter</span>
                 </a>
                 <a
                   href="mailto:dev.czdamian@gmail.com"
@@ -115,7 +115,7 @@ const Footer = () => {
                   <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
                     <HiMail className="w-5 h-5" />
                   </div>
-                  <span>E-Mail</span>
+                  <span>Mail</span>
                 </a>
               </div>
             </motion.div>

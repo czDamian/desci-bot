@@ -9,7 +9,7 @@ const rubik = Rubik({
 export const metadata = {
   title: "DeSci AI",
   description:
-    "an AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
+    "An AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
   authors: [{ name: 'Damian', url: 'https://x.com/Desci_ai_bot' }],
   robots: 'index, follow',
   openGraph: {
