@@ -22,6 +22,24 @@ The **DeSci AI** is an AI-powered assistant designed to accelerate knowledge sha
 - ✅ **Professional UI** - Glassmorphism effects and modern design language
 - ✅ **Real-time Updates** - Live message streaming and typing indicators
 
+
+### 🎁 **Rewards Program**
+
+- ✅ **Early Access Waitlist** – Users can join a waitlist to get notified about the launch of the DeSci Rewards program.
+- ✅ **Project Submission** – Submit DeSci or BIO/ACC projects for recognition and rewards.
+- ✅ **Token Rewards** – Earn tokens for valuable contributions and community engagement.
+- ✅ **Community Voting** – Participate in voting to help surface impactful projects.
+- ✅ **Impact Tracking** – Monitor your contributions and project impact over time.
+- ✅ **Recognition & Acceleration** – Top contributors and projects receive special recognition and support.
+
+---
+### 🔗 Social Media
+Stay updated on our social media handles
+
+- [X (Twitter)](https://x.com/Desci_ai_bot)
+- [Telegram](https://t.me/DesciAI_New)
+
+
 ### 🔬 **BIO/ACC Specialization**
 
 - ✅ **Movement Expertise** - Deep knowledge of BIO/ACC principles and culture
