@@ -66,7 +66,7 @@ const Header = () => {
         {/* Social Links */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="https://x.com/Desci_ai_bot"
+            href="https://x.com/DesciAI_Acc"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:scale-110 hover:text-green-300 group"
@@ -146,7 +146,7 @@ const Header = () => {
                 <span className="text-sm text-gray-300">Follow us:</span>
                 <div className="flex gap-3">
                   <a
-                    href="https://x.com/Desci_ai_bot"
+                    href="https://x.com/DesciAI_Acc"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all duration-300 hover:text-green-300"

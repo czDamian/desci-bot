@@ -100,7 +100,7 @@ const Footer = () => {
                   <span>Telegram</span>
                 </a>
                 <a
-                  href="https://x.com/Desci_ai_bot"
+                  href="https://x.com/DesciAI_Acc"
                   className="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors duration-300 group"
                 >
                   <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
