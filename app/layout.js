@@ -10,7 +10,7 @@ export const metadata = {
   title: "DeSci AI",
   description:
     "An AI-powered assistant designed to accelerate knowledge sharing and community engagement within the Biological Accelerationism (BIO/ACC) and Decentralized Science (DeSci) ecosystems",
-  authors: [{ name: 'Damian', url: 'https://x.com/DesciAI_Acc' }],
+  authors: [{ name: 'Damian', url: 'https://x.com/DesciBot_AI' }],
   robots: 'index, follow',
   openGraph: {
     title: "DeSci AI",
