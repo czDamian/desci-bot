@@ -37,7 +37,7 @@ The **DeSci AI** is an AI-powered assistant designed to accelerate knowledge sha
 Stay updated on our social media handles
 
 - [X (Twitter)](https://x.com/DesciAI_Acc)
-- [Telegram](https://t.me/DesciAI_New)
+- [Telegram](https://t.me/desci_ai_bot)
 
 
 ### 🔬 **BIO/ACC Specialization**

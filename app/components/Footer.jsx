@@ -91,7 +91,7 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white mb-6">Connect</h3>
               <div className="space-y-4">
                 <a
-                  href="https://t.me/DesciAI_New"
+                  href="https://t.me/desci_ai_bot"
                   className="flex items-center gap-3 text-slate-400 hover:text-emerald-400 transition-colors duration-300 group"
                 >
                   <div className="p-2 bg-slate-800/50 rounded-lg group-hover:bg-emerald-600/20 transition-colors duration-300">
