@@ -210,6 +210,10 @@ const Hero = () => {
           </motion.div>
         </motion.div>
       </div>
+      <div className="relative z-20 text-center text-gray-400 text-sm mb-4">
+        <span className="pr-2">CA:</span>
+        5QzwXsrgPAoBJnPKTiuon4rPLvoBJP1iV6qggPfYBAGS
+      </div>
 
       {/* Bottom Gradient Fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-slate-900 to-transparent"></div>
